@@ -66,7 +66,3 @@ ai/           sentiment, text-to-SQL, and RAG notebooks
 2. Create the `zomato_ai` catalog and the `bronze`, `silver`, and `gold` schemas.
 3. Upload the source files to the raw volume.
 4. Run the `zomato_pipeline` job, or run the notebooks in order: ingest, stage, published, ai.
-
-## Credits
-
-Built while following the "Zomato AI Data Analytics" tutorial on YouTube, with changes: I used Databricks instead of Snowflake/dbt/Airflow and generated synthetic data.
